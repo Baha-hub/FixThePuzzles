@@ -1,0 +1,25 @@
+NOT : 1. level ActiveGame de index olarak 0 dan başlar. yani her zaman level-1'inci index'e işlem yapılmalı.
+-------------------------   MainMenu LEVEL EKLEME   ---------------------------------------
+1- LevelControlScript.cs scriptindeki yıldız ve kilit sayısını arttır arayüze eklediğin yeni bölümlerin yıldız ve kilitlerini sürükle bırak.
+2- SaveSystem.cs de bulunan GetReady() metodunu güncelle.
+3- SaveSystem.cs de bulunan google save kısmını güncelle.
+4- GooglePlaySavePoppup içini güncelle.
+5- SaveSystem.cs de bulunan DefaultSave'in altındaki levelsize'ı güncelle.
+
+-------------------------   MainMenu LEVEL EKLEME   ---------------------------------------
+
+-------------------------  DragAndDrop PREFAB EKLEME   ---------------------------------------
+1- ResetPosition.cs her oyun içi nesne prefabinde olacak.
+2- Her nesnenin içinde "DragAndDrop.cs" olacak ve  en az 2 child'ı olacak. bunlardan birisi tutma alanını büyütmek için kullanılan HoldingPlace olacak ve
+    içinde "EditableHoldingPlace.cs" ve "DragAndDrop.cs" olacak. diger child ise HitBoxControl olacak ve içindeki collider istrigger açık olacak.
+    ve içinde "StartableControl.cs" olacak.
+3- prefab özel scriptler...
+4- holding place e holding place tagi ver.
+------------------------  DragAndDrop PREFAB EKLEME    ---------------------------------------
+
+
+-------------------------  PREFAB EKLEME   ---------------------------------------
+1- ResetPosition.cs her oyun içi nesne prefabinde olacak.
+2- Her nesnenin içinde  HitBoxControl child'ı olacak olacak ve içindeki collider istrigger açık olacak ve içinde "StartableControl.cs" olacak.
+3- prefab özel scriptler...
+------------------------   PREFAB EKLEME    ---------------------------------------
